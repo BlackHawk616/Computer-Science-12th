@@ -1,0 +1,1 @@
+this a sample text to find how many vowels are there in this text file in this i have used functions, exception handling tooo
