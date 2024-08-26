@@ -8,22 +8,9 @@ def vowels(path):
         l = len(content)
         vowel = 0
 
-        for i in range(l):
-
-            if content[i] == "a":
-                vowel +=1
-
-            elif content[i] == "e":
-                vowel +=1
-
-            elif content[i] == "i":
-                vowel +=1
-            
-            elif content[i] == "o":
-                vowel +=1
-
-            elif content[i] == "u":
-                vowel +=1
+        for char in content:
+            if char in ["a","e","i","o","u"]:
+                vowel += 1
         print("Total Vowels are : ", vowel)
     except Exception as e:
         print(e)
